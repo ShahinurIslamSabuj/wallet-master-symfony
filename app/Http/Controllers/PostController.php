@@ -6,7 +6,7 @@ use Illuminate\View\View;
 
 class PostController extends Controller
 {
-    public function index(): string
+    public function index(): view
     {
         return view('welcome');
     }

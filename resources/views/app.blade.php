@@ -8,7 +8,7 @@
   </head>
   <body>
     <section class="content-area">
-        <div class="container">
+        <div class="container"> accordion    
             <div class="row">
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">

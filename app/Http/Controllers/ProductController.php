@@ -2,14 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\KpiSetup;
-use Illuminate\View\View;
+use Illuminate\Http\Request;
 
-class ProductController
+class ProductController extends Controller
 {
-    public function products(): View
-    {
-        $products = KpiSetup::all();
-        return view('product', compact('products'));
+    public function product(){
+        return view("product");
     }
 }
